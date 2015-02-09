@@ -14,6 +14,20 @@
 		3A84199D1A8485580026BCAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A84199C1A8485580026BCAD /* Images.xcassets */; };
 		3A8419A01A8485580026BCAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A84199E1A8485580026BCAD /* LaunchScreen.xib */; };
 		3A8419AC1A8485580026BCAD /* SpringAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419AB1A8485580026BCAD /* SpringAppTests.m */; };
+		3A8419B81A8485890026BCAD /* Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419B71A8485890026BCAD /* Spring.m */; };
+		3A8419BA1A84860E0026BCAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8419B91A84860E0026BCAD /* CoreGraphics.framework */; };
+		3A8419BC1A8487D50026BCAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8419BB1A8487D50026BCAD /* QuartzCore.framework */; };
+		3A8419BF1A84921A0026BCAD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8419BE1A84921A0026BCAD /* CoreFoundation.framework */; };
+		3A8419C21A84B5220026BCAD /* SpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419C11A84B5220026BCAD /* SpringButton.m */; };
+		3A8419C51A84BC720026BCAD /* SpringImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419C41A84BC720026BCAD /* SpringImageView.m */; };
+		3A8419C81A84BD2D0026BCAD /* SpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419C71A84BD2D0026BCAD /* SpringView.m */; };
+		3AE451EE1A8848CC00989D19 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE451ED1A8848CC00989D19 /* LoadingView.xib */; };
+		3AE451F11A8848DE00989D19 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451F01A8848DE00989D19 /* LoadingView.m */; };
+		3AE451F41A884ABC00989D19 /* Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451F31A884ABC00989D19 /* Misc.m */; };
+		3AE451F71A88507400989D19 /* SpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451F61A88507400989D19 /* SpringAnimation.m */; };
+		3AE451FA1A88570400989D19 /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451F91A88570400989D19 /* TransitionManager.m */; };
+		3AE451FD1A88611500989D19 /* KeyboardLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451FC1A88611500989D19 /* KeyboardLayoutConstraint.m */; };
+		3AE452001A8864CE00989D19 /* TransitionZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE451FF1A8864CE00989D19 /* TransitionZoom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,30 @@
 		3A8419A51A8485580026BCAD /* SpringAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8419AA1A8485580026BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8419AB1A8485580026BCAD /* SpringAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAppTests.m; sourceTree = "<group>"; };
+		3A8419B61A8485890026BCAD /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		3A8419B71A8485890026BCAD /* Spring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spring.m; sourceTree = "<group>"; };
+		3A8419B91A84860E0026BCAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A8419BB1A8487D50026BCAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A8419BE1A84921A0026BCAD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3A8419C01A84B5220026BCAD /* SpringButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringButton.h; sourceTree = "<group>"; };
+		3A8419C11A84B5220026BCAD /* SpringButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringButton.m; sourceTree = "<group>"; };
+		3A8419C31A84BC720026BCAD /* SpringImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringImageView.h; sourceTree = "<group>"; };
+		3A8419C41A84BC720026BCAD /* SpringImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringImageView.m; sourceTree = "<group>"; };
+		3A8419C61A84BD2D0026BCAD /* SpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringView.h; sourceTree = "<group>"; };
+		3A8419C71A84BD2D0026BCAD /* SpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringView.m; sourceTree = "<group>"; };
+		3AE451ED1A8848CC00989D19 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		3AE451EF1A8848DE00989D19 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		3AE451F01A8848DE00989D19 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		3AE451F21A884ABC00989D19 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		3AE451F31A884ABC00989D19 /* Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Misc.m; sourceTree = "<group>"; };
+		3AE451F51A88507400989D19 /* SpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimation.h; sourceTree = "<group>"; };
+		3AE451F61A88507400989D19 /* SpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimation.m; sourceTree = "<group>"; };
+		3AE451F81A88570400989D19 /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		3AE451F91A88570400989D19 /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
+		3AE451FB1A88611500989D19 /* KeyboardLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardLayoutConstraint.h; sourceTree = "<group>"; };
+		3AE451FC1A88611500989D19 /* KeyboardLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardLayoutConstraint.m; sourceTree = "<group>"; };
+		3AE451FE1A8864CE00989D19 /* TransitionZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionZoom.h; sourceTree = "<group>"; };
+		3AE451FF1A8864CE00989D19 /* TransitionZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionZoom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8419BF1A84921A0026BCAD /* CoreFoundation.framework in Frameworks */,
+				3A8419BC1A8487D50026BCAD /* QuartzCore.framework in Frameworks */,
+				3A8419BA1A84860E0026BCAD /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +104,11 @@
 		3A8419831A8485580026BCAD = {
 			isa = PBXGroup;
 			children = (
+				3A8419B51A84856E0026BCAD /* Spring_objc */,
 				3A84198E1A8485580026BCAD /* SpringApp */,
 				3A8419A81A8485580026BCAD /* SpringAppTests */,
 				3A84198D1A8485580026BCAD /* Products */,
+				3A8419BD1A8487E20026BCAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +160,44 @@
 				3A8419AA1A8485580026BCAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A8419B51A84856E0026BCAD /* Spring_objc */ = {
+			isa = PBXGroup;
+			children = (
+				3AE451ED1A8848CC00989D19 /* LoadingView.xib */,
+				3AE451EF1A8848DE00989D19 /* LoadingView.h */,
+				3AE451F01A8848DE00989D19 /* LoadingView.m */,
+				3A8419B61A8485890026BCAD /* Spring.h */,
+				3A8419B71A8485890026BCAD /* Spring.m */,
+				3A8419C01A84B5220026BCAD /* SpringButton.h */,
+				3A8419C11A84B5220026BCAD /* SpringButton.m */,
+				3A8419C31A84BC720026BCAD /* SpringImageView.h */,
+				3A8419C41A84BC720026BCAD /* SpringImageView.m */,
+				3A8419C61A84BD2D0026BCAD /* SpringView.h */,
+				3A8419C71A84BD2D0026BCAD /* SpringView.m */,
+				3AE451F21A884ABC00989D19 /* Misc.h */,
+				3AE451F31A884ABC00989D19 /* Misc.m */,
+				3AE451F51A88507400989D19 /* SpringAnimation.h */,
+				3AE451F61A88507400989D19 /* SpringAnimation.m */,
+				3AE451F81A88570400989D19 /* TransitionManager.h */,
+				3AE451F91A88570400989D19 /* TransitionManager.m */,
+				3AE451FB1A88611500989D19 /* KeyboardLayoutConstraint.h */,
+				3AE451FC1A88611500989D19 /* KeyboardLayoutConstraint.m */,
+				3AE451FE1A8864CE00989D19 /* TransitionZoom.h */,
+				3AE451FF1A8864CE00989D19 /* TransitionZoom.m */,
+			);
+			path = Spring_objc;
+			sourceTree = "<group>";
+		};
+		3A8419BD1A8487E20026BCAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8419BE1A84921A0026BCAD /* CoreFoundation.framework */,
+				3A8419BB1A8487D50026BCAD /* QuartzCore.framework */,
+				3A8419B91A84860E0026BCAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A84199B1A8485580026BCAD /* Main.storyboard in Resources */,
+				3AE451EE1A8848CC00989D19 /* LoadingView.xib in Resources */,
 				3A8419A01A8485580026BCAD /* LaunchScreen.xib in Resources */,
 				3A84199D1A8485580026BCAD /* Images.xcassets in Resources */,
 			);
@@ -220,8 +302,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8419981A8485580026BCAD /* ViewController.m in Sources */,
+				3AE451FD1A88611500989D19 /* KeyboardLayoutConstraint.m in Sources */,
+				3AE451F11A8848DE00989D19 /* LoadingView.m in Sources */,
+				3A8419C51A84BC720026BCAD /* SpringImageView.m in Sources */,
+				3AE451F41A884ABC00989D19 /* Misc.m in Sources */,
 				3A8419951A8485580026BCAD /* AppDelegate.m in Sources */,
+				3A8419C81A84BD2D0026BCAD /* SpringView.m in Sources */,
+				3A8419B81A8485890026BCAD /* Spring.m in Sources */,
+				3AE452001A8864CE00989D19 /* TransitionZoom.m in Sources */,
+				3A8419C21A84B5220026BCAD /* SpringButton.m in Sources */,
+				3AE451FA1A88570400989D19 /* TransitionManager.m in Sources */,
 				3A8419921A8485580026BCAD /* main.m in Sources */,
+				3AE451F71A88507400989D19 /* SpringAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +506,7 @@
 				3A8419B11A8485580026BCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A8419B21A8485580026BCAD /* Build configuration list for PBXNativeTarget "SpringAppTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +515,7 @@
 				3A8419B41A8485580026BCAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
