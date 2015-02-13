@@ -22,7 +22,7 @@
     if (self) {
         _autostart = NO;
         _autohide = NO;
-        _animation = NoneStyle;
+        _animation = @"";
         _force = 1;
         _delay = 0;
         _duration = 0.7;
@@ -34,7 +34,31 @@
         _scaleX = 1;
         _scaleY = 1;
         _rotate = 0;
-        _curve = NoneFunction;
+        _curve = @"";
+        _animateFrom = NO;
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if(self) {
+        _autostart = NO;
+        _autohide = NO;
+        _animation = @"";
+        _force = 1;
+        _delay = 0;
+        _duration = 0.7;
+        _damping = 0.7;
+        _velocity = 0.7;
+        _repeatCount = 1;
+        _x = 0;
+        _y = 0;
+        _scaleX = 1;
+        _scaleY = 1;
+        _rotate = 0;
+        _curve = @"";
         _animateFrom = NO;
     }
     return self;
@@ -53,7 +77,7 @@
 }
 
 
-#pragma mark - Setter
+#pragma mark - Getter
 
 - (Spring *)spring
 {

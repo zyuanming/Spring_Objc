@@ -14,7 +14,7 @@ IB_DESIGNABLE
 
 @property (nonatomic, assign) IBInspectable BOOL autostart;
 @property (nonatomic, assign) IBInspectable BOOL autohide;
-@property (nonatomic, assign) IBInspectable AnimationStyle animation;
+@property (nonatomic, strong) IBInspectable NSString *animation;
 @property (nonatomic, assign) IBInspectable CGFloat force;
 @property (nonatomic, assign) IBInspectable CGFloat delay;
 @property (nonatomic, assign) IBInspectable CGFloat duration;
@@ -27,8 +27,8 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable CGFloat scaleY;
 @property (nonatomic, assign) IBInspectable CGFloat rotate;
 @property (nonatomic, assign) IBInspectable CGFloat opacity;
-@property (nonatomic, assign) IBInspectable BOOL animateFrom;
-@property (nonatomic, assign) IBInspectable TimingFunctionSytle curve;
+@property (nonatomic, assign) BOOL animateFrom;
+@property (nonatomic, strong) IBInspectable NSString *curve;
 @property (nonatomic, assign, readonly) CALayer *layer;
 @property (nonatomic, assign) IBInspectable CGAffineTransform transform;
 @property (nonatomic, assign) IBInspectable CGFloat alpha;

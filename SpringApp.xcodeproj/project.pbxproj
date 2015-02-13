@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0C7A401A8D98A400CE6FA3 /* DesignableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C7A3F1A8D98A400CE6FA3 /* DesignableButton.m */; };
+		3A0C7A431A8D9A2800CE6FA3 /* DesignableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C7A421A8D9A2800CE6FA3 /* DesignableImageView.m */; };
+		3A0C7A461A8D9A7200CE6FA3 /* SpringLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C7A451A8D9A7200CE6FA3 /* SpringLabel.m */; };
+		3A4DAD241A8C966F0002EE77 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DAD231A8C966F0002EE77 /* SpringViewController.m */; };
+		3A4DAD271A8C967F0002EE77 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DAD261A8C967F0002EE77 /* OptionsViewController.m */; };
+		3A4DAD2A1A8C96900002EE77 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DAD291A8C96900002EE77 /* CodeViewController.m */; };
 		3A8419921A8485580026BCAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419911A8485580026BCAD /* main.m */; };
 		3A8419951A8485580026BCAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419941A8485580026BCAD /* AppDelegate.m */; };
 		3A8419981A8485580026BCAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8419971A8485580026BCAD /* ViewController.m */; };
@@ -41,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A0C7A3E1A8D98A400CE6FA3 /* DesignableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableButton.h; sourceTree = "<group>"; };
+		3A0C7A3F1A8D98A400CE6FA3 /* DesignableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableButton.m; sourceTree = "<group>"; };
+		3A0C7A411A8D9A2800CE6FA3 /* DesignableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableImageView.h; sourceTree = "<group>"; };
+		3A0C7A421A8D9A2800CE6FA3 /* DesignableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableImageView.m; sourceTree = "<group>"; };
+		3A0C7A441A8D9A7200CE6FA3 /* SpringLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringLabel.h; sourceTree = "<group>"; };
+		3A0C7A451A8D9A7200CE6FA3 /* SpringLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringLabel.m; sourceTree = "<group>"; };
+		3A4DAD221A8C966F0002EE77 /* SpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		3A4DAD231A8C966F0002EE77 /* SpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		3A4DAD251A8C967F0002EE77 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		3A4DAD261A8C967F0002EE77 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		3A4DAD281A8C96900002EE77 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		3A4DAD291A8C96900002EE77 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
 		3A84198C1A8485580026BCAD /* SpringApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8419901A8485580026BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8419911A8485580026BCAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -132,6 +150,12 @@
 				3A84199C1A8485580026BCAD /* Images.xcassets */,
 				3A84199E1A8485580026BCAD /* LaunchScreen.xib */,
 				3A84198F1A8485580026BCAD /* Supporting Files */,
+				3A4DAD221A8C966F0002EE77 /* SpringViewController.h */,
+				3A4DAD231A8C966F0002EE77 /* SpringViewController.m */,
+				3A4DAD251A8C967F0002EE77 /* OptionsViewController.h */,
+				3A4DAD261A8C967F0002EE77 /* OptionsViewController.m */,
+				3A4DAD281A8C96900002EE77 /* CodeViewController.h */,
+				3A4DAD291A8C96900002EE77 /* CodeViewController.m */,
 			);
 			path = SpringApp;
 			sourceTree = "<group>";
@@ -176,6 +200,8 @@
 				3A8419C41A84BC720026BCAD /* SpringImageView.m */,
 				3A8419C61A84BD2D0026BCAD /* SpringView.h */,
 				3A8419C71A84BD2D0026BCAD /* SpringView.m */,
+				3A0C7A441A8D9A7200CE6FA3 /* SpringLabel.h */,
+				3A0C7A451A8D9A7200CE6FA3 /* SpringLabel.m */,
 				3AE451F21A884ABC00989D19 /* Misc.h */,
 				3AE451F31A884ABC00989D19 /* Misc.m */,
 				3AE451F51A88507400989D19 /* SpringAnimation.h */,
@@ -186,6 +212,10 @@
 				3AE451FC1A88611500989D19 /* KeyboardLayoutConstraint.m */,
 				3AE451FE1A8864CE00989D19 /* TransitionZoom.h */,
 				3AE451FF1A8864CE00989D19 /* TransitionZoom.m */,
+				3A0C7A3E1A8D98A400CE6FA3 /* DesignableButton.h */,
+				3A0C7A3F1A8D98A400CE6FA3 /* DesignableButton.m */,
+				3A0C7A411A8D9A2800CE6FA3 /* DesignableImageView.h */,
+				3A0C7A421A8D9A2800CE6FA3 /* DesignableImageView.m */,
 			);
 			path = Spring_objc;
 			sourceTree = "<group>";
@@ -302,17 +332,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8419981A8485580026BCAD /* ViewController.m in Sources */,
+				3A0C7A401A8D98A400CE6FA3 /* DesignableButton.m in Sources */,
+				3A0C7A461A8D9A7200CE6FA3 /* SpringLabel.m in Sources */,
 				3AE451FD1A88611500989D19 /* KeyboardLayoutConstraint.m in Sources */,
+				3A4DAD271A8C967F0002EE77 /* OptionsViewController.m in Sources */,
 				3AE451F11A8848DE00989D19 /* LoadingView.m in Sources */,
+				3A4DAD241A8C966F0002EE77 /* SpringViewController.m in Sources */,
 				3A8419C51A84BC720026BCAD /* SpringImageView.m in Sources */,
 				3AE451F41A884ABC00989D19 /* Misc.m in Sources */,
 				3A8419951A8485580026BCAD /* AppDelegate.m in Sources */,
 				3A8419C81A84BD2D0026BCAD /* SpringView.m in Sources */,
+				3A4DAD2A1A8C96900002EE77 /* CodeViewController.m in Sources */,
 				3A8419B81A8485890026BCAD /* Spring.m in Sources */,
 				3AE452001A8864CE00989D19 /* TransitionZoom.m in Sources */,
 				3A8419C21A84B5220026BCAD /* SpringButton.m in Sources */,
 				3AE451FA1A88570400989D19 /* TransitionManager.m in Sources */,
 				3A8419921A8485580026BCAD /* main.m in Sources */,
+				3A0C7A431A8D9A2800CE6FA3 /* DesignableImageView.m in Sources */,
 				3AE451F71A88507400989D19 /* SpringAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
