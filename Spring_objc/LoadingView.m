@@ -47,7 +47,7 @@
     loadingXibView.alpha = 0.0;
     
     [UIView animateWithDuration:0.7 delay:0.0 usingSpringWithDamping:0.7 initialSpringVelocity:0.7 options:0 animations:^{
-        
+        loadingXibView.alpha = 1.0;
     } completion:nil];
 }
 

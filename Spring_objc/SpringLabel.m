@@ -43,7 +43,7 @@
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
-    if(!self) {
+    if(self) {
         _autostart = NO;
         _autohide = NO;
         _animation = @"";
