@@ -12,6 +12,7 @@
 @interface LoadingView : UIView
 
 @property (weak, nonatomic) IBOutlet SpringView *indicatorView;
++ (UIView *)designCodeLoadingView;
 
 @end
 
